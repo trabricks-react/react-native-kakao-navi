@@ -9,7 +9,7 @@ import com.facebook.react.bridge.ReactMethod;
 import com.kakao.util.exception.KakaoException;
 import com.kakao.plusfriend.PlusFriendService;
 
-public class ANKakaoNavi extends ReactContextBaseJavaModule {
+public class ARNKakaoNavi extends ReactContextBaseJavaModule {
 
     private ReactApplicationContext reactContext;
 
@@ -21,7 +21,7 @@ public class ANKakaoNavi extends ReactContextBaseJavaModule {
     @NonNull
     @Override
     public String getName() {
-        return "ANKakaoNavi";
+        return "ARNKakaoNavi";
     }
 
 }
