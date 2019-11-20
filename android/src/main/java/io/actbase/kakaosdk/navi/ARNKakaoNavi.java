@@ -13,7 +13,7 @@ public class ARNKakaoNavi extends ReactContextBaseJavaModule {
 
     private ReactApplicationContext reactContext;
 
-    public ANKakaoNavi(ReactApplicationContext reactContext) {
+    public ARNKakaoNavi(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
