@@ -1,0 +1,32 @@
+# Docs
+docs
+
+# Build
+android/build
+ios/build
+react-native-fast-image-*.tgz
+
+# We need to ignore some things in submodules.
+# This probably isn't everything we'd like to ignore but it's good enough.
+.git*
+*.png
+
+# Examples
+example
+
+# Tests
+.circleci
+__snapshots__
+*.test.js
+
+# Configs
+.babelrc
+.gitignore
+.npmignore
+prettier.config.js
+yarn.lock
+babel.config.js
+jest.config.js
+
+# IDE
+.idea/

@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':react-native-ccs-kakaosdk'
+project(':react-native-ccs-kakaosdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ccs-kakaosdk/android')
+
+include ':app'

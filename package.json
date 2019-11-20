@@ -1,0 +1,31 @@
+{
+  "name": "@actbase/react-native-kakao-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "kakao login",
+    "카카오로그인"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@actbase/react-native-kakaosdk": "1.*"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "author": {
+    "name": "Trabricks LLC",
+    "email": "project@trabricks.io",
+    "url": "https://trabricks.io"
+  },
+  "homepage": "https://github.com/trabricks/react-native-kakao-login#readme",
+  "bugs": {
+    "url": "https://github.com/trabricks/react-native-kakao-login/issues"
+  }
+}
