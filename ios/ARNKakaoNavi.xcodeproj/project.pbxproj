@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA1009B9236DF1F100B3EB23 /* ANKakaoNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1009B8236DF1F100B3EB23 /* ANKakaoNavi.m */; };
+		BA1009B9236DF1F100B3EB23 /* ARNKakaoNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1009B8236DF1F100B3EB23 /* ARNKakaoNavi.m */; };
 		BA67EA772385247B0094C010 /* KakaoNavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA67EA762385247B0094C010 /* KakaoNavi.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNCcsKakaosdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRNCcsKakaosdk.a; path = libRNCKakaoSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA1009B7236DF1F100B3EB23 /* ANKakaoNavi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANKakaoNavi.h; sourceTree = "<group>"; };
-		BA1009B8236DF1F100B3EB23 /* ANKakaoNavi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANKakaoNavi.m; sourceTree = "<group>"; };
+		BA1009B7236DF1F100B3EB23 /* ARNKakaoNavi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNKakaoNavi.h; sourceTree = "<group>"; };
+		BA1009B8236DF1F100B3EB23 /* ARNKakaoNavi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNKakaoNavi.m; sourceTree = "<group>"; };
 		BA67EA762385247B0094C010 /* KakaoNavi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoNavi.framework; path = ../KakaoNavi.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				BA67EA762385247B0094C010 /* KakaoNavi.framework */,
-				BA1009B7236DF1F100B3EB23 /* ANKakaoNavi.h */,
-				BA1009B8236DF1F100B3EB23 /* ANKakaoNavi.m */,
+				BA1009B7236DF1F100B3EB23 /* ARNKakaoNavi.h */,
+				BA1009B8236DF1F100B3EB23 /* ARNKakaoNavi.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1009B9236DF1F100B3EB23 /* ANKakaoNavi.m in Sources */,
+				BA1009B9236DF1F100B3EB23 /* ARNKakaoNavi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
