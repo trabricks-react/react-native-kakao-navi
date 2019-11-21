@@ -1,4 +1,4 @@
-# 카카오톡 채널 for React Native
+# 카카오내비 for React Native
 
 ![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-brightgreen.svg?style=flat-square&colorB=191A17)
 [![npm](https://img.shields.io/npm/v/@actbase/react-native-kakao-navi.svg?style=flat-square)](https://www.npmjs.com/package/@actbase/react-native-kakao-navi)
