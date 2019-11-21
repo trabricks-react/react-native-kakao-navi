@@ -1,27 +1,26 @@
 declare module "actbase-native-kakaosdk" {
   export enum CoordType {
-    KNVCoordTypeKATEC = 1,
-    KNVCoordTypeWGS84 = 2
+    KATEC = 1,
+    WGS84 = 2
   }
   export enum RpOption {
-    KNVRpOptionFast = 1,
-    KNVRpOptionFree = 2,
-    KNVRpOptionShortest = 3,
-    KNVRpOptionNoAuto = 4,
-    KNVRpOptionWide = 5,
-    KNVRpOptionHighway = 6,
-    KNVRpOptionNormal = 8,
-    KNVRpOptionRecommended = 100
+    Fast = 1,
+    Free = 2,
+    Shortest = 3,
+    NoAuto = 4,
+    Wide = 5,
+    Highway = 6,
+    Normal = 8
   }
 
   export enum VehicleType {
-    KNVVehicleTypeFirst = 1,
-    KNVVehicleTypeSecond = 2,
-    KNVVehicleTypeThird = 3,
-    KNVVehicleTypeFourth = 4,
-    KNVVehicleTypeFifth = 5,
-    KNVVehicleTypeSixth = 6,
-    KNVVehicleTypeTwoWheel = 7
+    First = 1,
+    Second = 2,
+    Third = 3,
+    Fourth = 4,
+    Fifth = 5,
+    Sixth = 6,
+    TwoWheel = 7
   }
 
   export interface ARNKakaoNaviLocation {
@@ -32,14 +31,14 @@ declare module "actbase-native-kakaosdk" {
 
   export interface ARNKakaoNaviOptions {
     coordType?: CoordType;
-    returnUri?: string;
+    vehicleType?: VehicleType;
+    rpoption?: RpOption;
     routeInfo?: boolean;
-    rpOption?: RpOption;
-    startAngle?: number;
     startX?: number;
     startY?: number;
+    startAngle?: number;
     userId?: string;
-    vehicleType?: VehicleType;
+    returnUri?: string;
   }
 
   export type ARNKakaoNaviViaList = ARNKakaoNaviLocation[];
