@@ -9,8 +9,9 @@
   },
   "keywords": [
     "react-native",
-    "kakao login",
-    "카카오로그인"
+    "kakao navi",
+    "카카오내비",
+    "카카오네비"
   ],
   "license": "MIT",
   "dependencies": {

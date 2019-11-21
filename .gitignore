@@ -1,4 +1,9 @@
 
+# VSCode
+#
+.vscode/
+
+
 # OSX
 #
 .DS_Store
@@ -34,11 +39,12 @@ project.xcworkspace
 # Android/IntelliJ
 #
 build/
-.idea
-.gradle
+.idea/
+.gradle/
 local.properties
 *.iml
 gradle.properties
+.settings/
 
 # BUCK
 buck-out/
