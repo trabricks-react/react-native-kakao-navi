@@ -28,5 +28,8 @@
   "homepage": "https://github.com/trabricks/react-native-kakao-navi#readme",
   "bugs": {
     "url": "https://github.com/trabricks/react-native-kakao-navi/issues"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.60.31"
   }
 }
