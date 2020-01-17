@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   
   s.authors   = { "Suhan Moon" => "leader@trabricks.io" }
   s.homepage  = "https://github.com/trabricks/react-native-navi#readme"
-  s.license   = "MIT"
+  s.license   = package['license']
 
   s.platform      = :ios, "9.0"
   s.framework     = 'UIKit'
