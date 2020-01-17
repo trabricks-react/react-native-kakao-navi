@@ -155,7 +155,7 @@ const viaList: ARNKakaoNaviViaList = [
 ### `목적지 공유`
 
 ```typescript
-KakaoSDK.navi
+KakaoSDK.Navi
   .share(destination, options, viaList)
   .then(res => console.log(res))
   .catch(e => console.log(e));
@@ -168,7 +168,7 @@ KakaoSDK.navi
 #### `목적지 길안내`
 
 ```typescript
-KakaoSDK.navi
+KakaoSDK.Navi
   .navigate(destination, options, viaList)
   .then(res => console.log(res))
   .catch(e => console.log(e));
