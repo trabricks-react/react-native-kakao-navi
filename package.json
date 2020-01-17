@@ -15,7 +15,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@actbase/react-native-kakaosdk": "1.*"
+    "@actbase/react-native-kakaosdk": "*"
   },
   "peerDependencies": {
     "react-native": "*"
@@ -30,6 +30,8 @@
     "url": "https://github.com/trabricks/react-native-kakao-navi/issues"
   },
   "devDependencies": {
-    "@types/react-native": "^0.60.31"
+    "@types/react-native": "^0.60.31",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
   }
 }
